@@ -1,0 +1,21 @@
+Description:
+----------------
+
+Matlab code for simulating tailored VFA scheduling, a GRE acquisition approach for T1rho mapping, as described in:
+
+Johnson CP, Thedens DR, Kruger SJ, Magnotta VA. Three-dimensional GRE T1rho mapping of the brain using tailored variable flip-angle scheduling. Magn Reson Med 2020.
+
+
+Included files:
+----------------
+
+Will be uploaded shortly.
+
+
+
+
+===================================================================
+
+Questions? Please contact the MRM article's corresponding author.
+
+===================================================================
