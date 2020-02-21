@@ -1,21 +1,40 @@
-Description:
+AUTHOR:
 ----------------
-
-Matlab code for simulating tailored VFA scheduling, a GRE acquisition approach for T1rho mapping, as described in:
-
-Johnson CP, Thedens DR, Kruger SJ, Magnotta VA. Three-dimensional GRE T1rho mapping of the brain using tailored variable flip-angle scheduling. Magn Reson Med 2020.
-
-
-Included files:
-----------------
-
-Will be uploaded shortly.
+Casey P. Johnson, PhD
+University of Minnesota
+john5037 [at] umn [dot] edu
 
 
+PLEASE CITE JOURNAL ARTICLE:
+-------------------------------------------------------------------------
+Johnson CP, Thedens DR, Kruger SJ, Magnotta VA. Three-Dimensional GRE T1ρ mapping of the brain using tailored variable flip-angle scheduling. Magn Reson Med 2020.
+https://www.ncbi.nlm.nih.gov/pubmed/32052489
 
 
-===================================================================
+OVERVIEW:
+-------------------------------------------------------------------------
+Matlab code for simulating tailored VFA scheduling, a GRE acquisition approach for T1rho mapping, as described in the cited journal article.
 
-Questions? Please contact the MRM article's corresponding author.
+Tested with Matlab 2019b on a Windows 10 PC.
 
-===================================================================
+Script and function details provided in respective m-files.
+
+
+INCLUDED SCRIPTS:
+-----------------
+
+tVFA_simulator.m
+  -> simulate tailored VFA schedules
+  -> simulate T1rho quantification errors and spatial blurring
+  -> calls functions fwhm.m and calcExpFit.m
+  -> used to generate data for Figures 2-4, S1, and S2 in journal article
+
+optParams_simulator.m
+  -> simulate optimal imaging parameters for tVFA based on T1rho precision estimation framework described in journal article
+  -> used to generate data for Figure 5 in journal article
+
+
+=====================================================================
+Questions? Please contact Casey Johnson: john5037 [at] umn [dot] edu
+=====================================================================
+
